@@ -1,0 +1,251 @@
+body{
+
+font-family: 'Open Sans', sans-serif;
+line-height:28px;
+font-size:19px;
+background-image: url("images/tiles.jpg");
+background-size:200px;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: 100%;
+    background-color: rgba(230, 230, 230, 0.9);
+}
+
+#page-content{
+    top: 0;
+    width: 82%;
+    float:left;
+
+}
+
+#sidebar {
+  box-shadow:3px 0px 3px black;
+  position: fixed;
+  width: 250px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(107, 171, 112, 0.9);
+  text-align:center;
+
+}
+.tentacles{
+opacity:0.1;
+position:fixed;
+bottom:0;
+right:0;
+width:500px;
+height:auto;
+}
+
+
+
+h1{
+color: rgb(107 171 112);
+font-family: 'Raleway', sans-serif;
+line-height:28px;
+font-size:40px;
+}
+h2{
+color: rgb(80 80 80);
+font-family: 'Raleway', sans-serif;
+line-height:28px;
+font-size:30px;
+}
+h3{
+color: rgb(116 202 125);
+font-family: 'Roboto Slab', serif;
+line-height:28px;
+font-size:24px;
+}
+.cursive{
+font-family: 'Gloria Hallelujah', cursive;
+color: rgb(116 202 125);
+}
+a{
+text-decoration:none;
+color: rgb(116 202 125);
+}
+
+
+.round-image{
+width:30%;
+height:auto;
+border-radius:50%;
+box-shadow: 3px 3px 5px black;
+}
+
+
+.card{
+display:block;
+background-color:rgba(255, 255, 255, 0.8);
+margin: 44px auto;
+padding:50px 20px;
+text-align:center;
+border-radius:3px;
+box-shadow: 1px 1px 3px #bbbbbb;
+max-width:1000px;
+}
+
+.button{
+background-color:rgb(116 202 125);
+padding:10px 10px;
+text-align:center;
+border-radius:3px;
+box-shadow: 1px 1px 3px #bbbbbb;
+color:white;
+width:25%;
+height:auto;
+margin:auto;
+}
+.button a{
+text-decoration:none;
+color:white;
+font-family: 'Raleway', sans-serif;
+font-weight:bold;
+}
+.button:hover{
+background-color:rgb(107 171 112);
+}
+
+.inline-list{
+  padding:0px;
+  margin:0px;
+}
+
+.inline-list li {
+    display: inline;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    margin:30px;
+}
+.inline-list a {
+    text-decoration:none;
+    color: rgb(116 202 125);
+}
+.inline-list a:hover {
+    color: rgb(107 171 112);
+}
+.fab {
+  font-size:50px;
+}
+.fab-white {
+  font-size:70px;
+  color:#CAF1C6;
+}
+.fab-white:hover {
+  font-size:70px;
+  color:rgba(255, 255, 255, 1);
+}
+
+.movies{
+display:inline-block;
+padding:20px 10px;
+}
+.movies p{
+text-align:left;
+}
+.movies h3{
+text-align:left;
+}
+
+.poster-size{
+max-width:150px;
+height:auto;
+border-radius:4px;
+box-shadow: 3px 3px 5px black;
+float:left;
+margin:0px 10px;
+margin: 0px 30px 20px 20px;
+}
+
+.poster-size:hover{
+
+    transform: scale(1.5);
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: inset;
+    border-width: 1px;
+    border-color:rgb(116 202 125);
+}
+
+
+#chtulu{
+max-width:80%;
+padding-top:30px;
+}
+
+
+
+#chtulu:hover {
+    transform: rotate(20deg);
+}
+
+
+@media (max-width: 1000px) {
+  /* For a screen < 960px, this CSS will be read */
+.container{
+
+    left: 0;
+}
+
+#page-content{
+    top: 0;
+    left:0;
+    width: 100%;
+}
+
+#sidebar {
+  display:none;
+}
+.tentacles{
+display:none;
+}
+}
+
+@media (max-width: 800px) {
+  /* For a screen < 960px, this CSS will be read */
+.movies p{
+text-align:center;
+clear:both;
+}
+.movies h3{
+  clear:both;
+text-align:center;
+}
+
+.movies img{
+text-align:center;
+margin-left:auto!important;
+margin-right:auto!important;
+max-width:50%;
+margin-top:30px;
+}
+.poster-size{
+  clear:both;
+  float:none;
+}
+
+.button{
+width:50%;
+}
+h1{
+line-height:40px;
+}
+.round-image{
+width:50%;
+}
+}
+
+
